@@ -14,11 +14,17 @@ namespace ExceptionDemo
 			Console.WriteLine(nums[3]);
 		}
 
+		static void CoolFunction()
+		{
+			Console.WriteLine("This is a cool function!");
+		}
+
 		static void Main(string[] args)
 		{
 			try
 			{
 				ArrayFun();
+				CoolFunction();
 			}
 			catch (IndexOutOfRangeException oor)
 			{
