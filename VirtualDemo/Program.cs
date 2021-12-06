@@ -4,8 +4,11 @@ using System.Collections.Generic;
 namespace VirtualDemo
 {
 
-	class Car
+	abstract class Car
 	{
+		// The word "abstract" means they can't create an instance of this class,
+		// only classes derived from it.
+
 		public string Make;
 		public string Model;
 		public int GasAmount;
@@ -81,6 +84,7 @@ namespace VirtualDemo
 
 			TestTrack(pinto);
 			TestTrack(f1);
+
 		}
 	}
 }
