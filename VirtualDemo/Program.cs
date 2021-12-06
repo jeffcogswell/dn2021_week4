@@ -43,7 +43,7 @@ namespace VirtualDemo
 			// Downside: We only know this is car.
 			// So if we pass in a RaceCar, we cannot check the value of SuperchargerSize.
 			// Question: What if I really need to access SuperchargerSize??? We have to "cast". (Google it!)
-			Console.WriteLine("\nWe're at the test track!");
+			Console.WriteLine("\nWe're at the test track!!!");
 			Console.WriteLine($"We're testing a {testcar.Model}!");
 			testcar.Drive();
 		}
